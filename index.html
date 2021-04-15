@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Stroke Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg viewBox="0 0 800 600">
+    <symbol id="s-text">
+     <text class="text--line" y="35%" x="50%" text-anchor="middle">
+       THE TECHGUY
+     </text>
+     <text class="text--line2" y="68%" x="50%" text-anchor="middle">
+      TUTORIALS
+    </text> 
+    </symbol>
+
+    <g class="g-ants">
+      <use class="text-copy" xlink:href="#s-text" />
+      <use class="text-copy" xlink:href="#s-text" />
+      <use class="text-copy" xlink:href="#s-text" />
+      <use class="text-copy" xlink:href="#s-text" />
+      <use class="text-copy" xlink:href="#s-text" />
+    </g>
+
+  </svg>
+</body>
+</html>
